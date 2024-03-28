@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  background-color: whitesmoke;
+}
+nav {
+  /* width: 375px; */
+  height: 50px;
+  padding: 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border: 2px whitesmoke;
+  border-radius: 10px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.navbar1 {
+  display: flex;
+  text-decoration: none;
+  color: grey;
+  font-family: "Poppins", sans-serif;
+  padding: 0 10px;
+}
+.icon {
+  display: flex;
+  margin-right: 10px;
+  /* > a {
+    color: grey;
+  } */
+}
+
+.icon > a {
+  color: gray;
+}
+
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  padding: 10px;
+  color: grey;
+  font-family: "Poppins", sans-serif;
+}
+.caption {
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  color: grey;
+  font-family: "Poppins", sans-serif;
+}
+p.project1 {
+  font-family: "Poppins", sans-serif;
+  color: #808080;
+}
