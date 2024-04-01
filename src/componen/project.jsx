@@ -7,7 +7,7 @@ export default function ProjectList() {
       name: "OLX",
       img_url:
         "https://i.pinimg.com/236x/76/a0/55/76a0559e38785778f7204968d466a98b.jpg",
-      directory:"https://www.instagram.com/amrullah.mukhtar",
+      directory:"https://github.com/amrullahmukhtar/Frontend-OLX",
     },
     {
       name: "Mitra Sepulu",
