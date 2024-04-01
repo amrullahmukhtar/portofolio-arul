@@ -18,6 +18,7 @@ function App() {
         <Route path="/myProject" element={<MyProject />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
       </Routes>
+      {/*  */}
     </>
   );
 }
