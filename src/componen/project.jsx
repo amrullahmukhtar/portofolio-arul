@@ -1,19 +1,24 @@
+import Todolist from "../assets/todolist.png";
+
+
 export default function ProjectList() {
   const project = [
     {
       name: "OLX",
       img_url:
         "https://i.pinimg.com/236x/76/a0/55/76a0559e38785778f7204968d466a98b.jpg",
+      directory:"https://www.instagram.com/amrullah.mukhtar",
     },
     {
       name: "Mitra Sepulu",
       img_url:
         "https://i.pinimg.com/736x/b0/e8/56/b0e856ebaf48b66322a9829d857b03ff.jpg",
+      directory:"https://www.instagram.com/amrullah.mukhtar",
     },
     {
-      name: "Mitra Sepulu",
-      img_url:
-        "https://i.pinimg.com/736x/b0/e8/56/b0e856ebaf48b66322a9829d857b03ff.jpg",
+      name: "Project Todolist",
+      img_url:Todolist,
+      directory:"https://todo-list-arul.vercel.app/",
     },
     {
       name: "Mitra Sepulu",
@@ -30,16 +35,21 @@ export default function ProjectList() {
   );
 }
 
-export function Project({ name, img_url }) {
+export function Project({ name, img_url,directory }) {
   return (
-    <div className="mx-3 min-w-40 bg-white flex flex-col justify-center items-center overflow-hidden rounded-xl ">
+    <a href={directory}>
+          <div className="mx-3 min-w-40 bg-white flex flex-col justify-center items-center overflow-hidden rounded-xl ">
       <img
         className="max-w-[160px] aspect-square object-cover"
         src={img_url}
         alt=""
+        
       />
 
       <p className="project1 text-center font-bold w-[160px] border-t-4">{name}</p>
     </div>
+
+    </a>
+
   );
 }
