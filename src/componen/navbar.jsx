@@ -7,9 +7,6 @@ export default function Navbar() {
         <a href="/" className="navbar1">
           Home
         </a>
-        <a href="/pageAbout" className="navbar1">
-          About
-        </a>
         <a href="/myProject" className="navbar1">
           Myproject
         </a>
