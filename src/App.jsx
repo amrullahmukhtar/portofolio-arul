@@ -4,7 +4,7 @@ import "./App.css";
 import Navbar from "./componen/navbar";
 import { Routes, Route } from "react-router-dom";
 import HomePage from "./page/home";
-import MyProject from "./page/myProject";
+// import MyProject from "./page/myProject";
 import Contact from "./page/contact";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       {/* apa aja */}
       <Routes>
         <Route path="/" element={<HomePage />}></Route>
-        <Route path="/myProject" element={<MyProject />}></Route>
+        {/* <Route path="/myProject" element={<MyProject />}></Route> */}
         <Route path="/contact" element={<Contact />}></Route>
       </Routes>
     </>

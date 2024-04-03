@@ -41,8 +41,8 @@ nav {
 
 .intro {
   display: flex;
-  flex-wrap: wrap;
-  width: 200px;
+  flex-direction: column;
+  width: 100vx;
   padding: 10px;
   color: grey;
   font-family: "Poppins", sans-serif;

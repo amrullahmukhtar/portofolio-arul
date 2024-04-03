@@ -1,4 +1,4 @@
-// import './navbar.css'
+
 
 export default function Navbar() {
   return (
@@ -7,7 +7,7 @@ export default function Navbar() {
         <a href="/" className="navbar1">
           Home
         </a>
-        <a href="/myProject" className="navbar1">
+        <a href="/" className="navbar1">
           Myproject
         </a>
         <a href="/contact" className="navbar1">
